@@ -22,7 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/trains', trainsRouter);
 
-// catch 404 and forward to error handler
+// catch 404 and forward to error handle r
 app.use(function(req, res, next) {
   next(createError(404));
 });
